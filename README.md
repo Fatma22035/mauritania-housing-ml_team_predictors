@@ -14,8 +14,8 @@ Ce projet est réalisé dans le cadre du **Cours de Machine Learning – Master 
 Il a pour objectif de concevoir un outil intelligent capable d’estimer le prix d’un bien immobilier à Nouakchott et Nouadhibou à partir de caractéristiques réelles du marché.
 
 - Durée : 4 à 6 semaines  
-- Encadrant : Mohamed  
-- Année académique : 2025 – 2026  
+- Encadrant : Eng Mohamed Lemine Beydia
+- Année académique : 2025–2026  
 
 ---
 
