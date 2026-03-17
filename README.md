@@ -421,28 +421,13 @@ setResult(response.data.prix);
 ## 🚀 Déploiement
 
 ### Backend sur Railway
-1. Créer compte [Railway](https://railway.app)
-2. Connecter dépôt GitHub
-3. Spécifier la commande de démarrage
-4. Déploiement automatique
+depot git: https://github.com/Fatma22035/api_capstone_predictors
+api deploye : apicapstonepredictors-production.up.railway.app
 
 ### Frontend sur Vercel
-1. Créer compte [Vercel](https://vercel.com)
-2. Connecter dépôt GitHub
-3. Configurer variables d'environnement
-4. Déploiement automatique
+repo git : https://github.com/Fatma22035/FrontendCapistone2
+lien d'app deployee: https://frontend-capistonepredictors.vercel.app/
 
-### Variables d'environnement
-```env
-# Backend
-FLASK_ENV=production
-MODEL_PATH=model.pkl
-
-# Frontend
-NEXT_PUBLIC_API_URL=https://votre-api.railway.app
-```
-
-📊 **Progression** : 0.72867 → 0.64658 (gain de 0.082)
 
 ## 👥 Équipe
 
