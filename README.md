@@ -59,36 +59,38 @@ Construire un pipeline complet de **prédiction des prix immobiliers** à Nouakc
 ## 📁 Structure du repository
 
 ```
-📦 Prediction-Prix-Immobiliers-NKC
+📦 Capstone_project_the_predictors
 ├── 📂 data/
-│   ├── 📂 raw/                    # Données brutes du scraping
-│   ├── 📂 processed/               # Données nettoyées
-│   └── 📂 geo_enriched/            # Données avec features géographiques
+│           
+├── EDA-Phase/
+│   ├── notebooks           
+│   ├── files.csv
+|
+├── EDA-Phase/
+│   ├── files scrapping for each site (.py)         
+│   └──datasets
 │
-├── 📂 notebooks/
-│   ├── 01_scraping.ipynb           # Phase 1: Web Scraping
-│   ├── 02_geo_enrichissement.ipynb # Phase 2: Géo-enrichissement
-│   ├── 03_eda.ipynb                # Phase 3: Analyse exploratoire
-│   ├── 04_feature_engineering.ipynb # Phase 4: Feature Engineering
-│   └── 05_modeling.ipynb           # Phase 5: Modélisation
-│
-├── 📂 src/
-│   ├── scraping/
-│   │   ├── scrapers.py
+|── feature_engineering/
+│   │   ├── notebooks
 │   │   └── utils.py
-│   ├── geo/
-│   │   ├── geocoding.py
-│   │   └── overpass.py
-│   └── utils/
-│       └── helpers.py
+|
+├── geo_enrichissement/
+│   |── notevooks
+│   |── files.csv
 │
-├── 📂 api/
+├── moedlisation/
+│   │____notebooks
+│   |____files_submission.csv
+│   └── 
+
+── 📂 api/
 │   ├── app.py                      # API Flask
 │   ├── model.pkl                    # Meilleur modèle entraîné
 │   ├── requirements.txt             # Dépendances Python
 │   └── Dockerfile                   # Pour déploiement
 │
-├── 📂 frontend/
+
+── 📂 frontend/
 │   ├── pages/
 │   │   ├── index.tsx
 │   │   └── predict.tsx
@@ -118,8 +120,8 @@ Construire un pipeline complet de **prédiction des prix immobiliers** à Nouakc
 
 ```bash
 # Cloner le repository
-git clone https://github.com/votre-username/Prediction-Prix-Immobiliers-NKC.git
-cd Prediction-Prix-Immobiliers-NKC
+git clone https://github.com/Fatma22035/Capstone_project_the_predictors
+cd Capstone_project_the_predictors
 
 # Créer un environnement virtuel
 python -m venv venv
@@ -140,7 +142,7 @@ npm install
 
 ## 🕷 Phase 1: Web Scraping
 
-### Sources scrapées 
+### Sources scrapées (9)
 - [voursa.com](https://voursa.com)
 - [lagence-mr.com](https://lagence-mr.com)
 - [afribaba.com](https://mr.afribaba.com)
@@ -431,7 +433,7 @@ lien d'app deployee: https://frontend-capistonepredictors.vercel.app/
 ## 👥 Équipe
 
 - **the predictors** - Data Scientist
-- [vatma elwavi, mariem tfeil, hafsa bilal]
+- [Vatma Elwavi, Mariem Tfeil, Hafsa Bilal]
 
 **Encadrant** : Beydia Mohamed - Instructeur, SupNum
 
