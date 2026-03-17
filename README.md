@@ -140,12 +140,12 @@ npm install
 
 ## 🕷 Phase 1: Web Scraping
 
-### Sources scrapées
+### Sources scrapées 
 - [voursa.com](https://voursa.com)
 - [lagence-mr.com](https://lagence-mr.com)
 - [afribaba.com](https://mr.afribaba.com)
 - [mauri-home.com](https://mauri-home.com)
-- [untoitenrim.com](https://untoitenrim.com)
+- [untoitenrim.com](https://untoitenrim.com) etc
 
 ### Technologies
 - **BeautifulSoup4** : Parsing HTML
@@ -170,9 +170,8 @@ npm install
 | `date_publication` | date | Date de publication |
 
 ### Résultats
-- **1153 annonces** collectées
+- **+6k annonces** collectées
 - **8 quartiers** couverts
-- Période: Mars 2025 - Mars 2026
 
 ### Éthique
 - Respect du `robots.txt`
