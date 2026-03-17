@@ -442,17 +442,6 @@ MODEL_PATH=model.pkl
 NEXT_PUBLIC_API_URL=https://votre-api.railway.app
 ```
 
-## 🏆 Résultats Kaggle
-
-| Rang | Équipe | Score |
-|------|--------|-------|
-| 1 | Équipe 1 | 0.55941 |
-| 2 | Équipe 2 | 0.56947 |
-| 3 | Équipe 3 | 0.61125 |
-| 4 | Équipe 4 | 0.61852 |
-| 5 | Équipe 5 | 0.62405 |
-| **6** | **The Predictors** | **0.64658** |
-
 📊 **Progression** : 0.72867 → 0.64658 (gain de 0.082)
 
 ## 👥 Équipe
