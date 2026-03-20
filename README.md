@@ -6,28 +6,37 @@
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 
-## 📋 Table des matières
-- [Contexte](#-contexte)
-- [Objectif](#-objectif)
-- [Architecture du projet](#-architecture-du-projet)
-- [Structure du repository](#-structure-du-repository)
-- [Installation](#-installation)
-- [Phase 1: Web Scraping](#-phase-1-web-scraping)
-- [Phase 2: Géo-enrichissement](#-phase-2-géo-enrichissement)
-- [Phase 3: Analyse Exploratoire (EDA)](#-phase-3-analyse-exploratoire-eda)
-- [Phase 4: Feature Engineering](#-phase-4-feature-engineering)
-- [Phase 5: Modélisation](#-phase-5-modélisation)
-- [Phase 6: Application Web](#-phase-6-application-web)
-- [Déploiement](#-déploiement)
-- [Résultats Kaggle](#-résultats-kaggle)
-- [Équipe](#-équipe)
-- [Licence](#-licence)
+---
+
+## 👥 ÉQUIPE
+
+| **Nom de l'équipe** | The Predictors |
+|---------------------|----------------|
+| **Membres** | Vatma Elwavi<br>Mariem Tfeil<br>Hafsa Bilal |
+| **Encadrant** | Beydia Mohamed - Instructeur, SupNum |
+
+---
+
+## 🌐 LIENS IMPORTANTS
+
+| Élément | Lien |
+|---------|------|
+| **Application déployée (Frontend)** | [https://frontend-capistonepredictors.vercel.app](https://frontend-capistonepredictors.vercel.app) |
+| **API Backend** | [https://api-capstone-predictors-4.onrender.com/api/predict](https://api-capstone-predictors-4.onrender.com/api/predict) |
+| **Repo GitHub (principal)** | [https://github.com/Fatma22035/Capstone_project_the_predictors](https://github.com/Fatma22035/Capstone_project_the_predictors) |
+| **Repo API** | [https://github.com/Fatma22035/api_capstone_predictors](https://github.com/Fatma22035/api_capstone_predictors) |
+| **Repo Frontend** | [https://github.com/Fatma22035/FrontendCapistone2](https://github.com/Fatma22035/FrontendCapistone2) |
+| **Support de présentation** | [./presentation/soutenance.pptx](./presentation/soutenance.pptx) |
+
+---
 
 ## 🎯 Contexte
 
 En Mauritanie, il n'existe aucune base de données publique sur les prix de l'immobilier. Les transactions se font de gré à gré, les annonces sont dispersées sur plusieurs plateformes, et aucun outil de référence ne permet d'estimer la valeur d'un bien.
 
 Ce projet a été réalisé dans le cadre du **Master 1 Machine Learning** à **SupNum (Institut Supérieur du Numérique, Mauritanie)**.
+
+---
 
 ## 🎯 Objectif
 
@@ -40,6 +49,11 @@ Construire un pipeline complet de **prédiction des prix immobiliers** à Nouakc
 - ✅ **Modélisation** avec 6 algorithmes de régression
 - ✅ **Application web** interactive (Next.js + Flask)
 - ✅ **Déploiement** sur Render (backend) et Vercel (frontend)
+
+---
+
+## 📁 Structure du repository
+
 
 ## 🏗 Architecture du projet
 
