@@ -407,7 +407,7 @@ setResult(response.data.prix);
 https://api-capstone-predictors-4.onrender.com/api/predict
 
 ### Frontend sur Vercel
-repo git : https://frontend-capistonepredictors.vercel.app/
+https://frontend-capistonepredictors.vercel.app/
 
 
 ## 📄 Licence
