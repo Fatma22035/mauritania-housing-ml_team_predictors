@@ -343,10 +343,10 @@ def rmsle(y_true, y_pred):
 | Linear Regression | 2.6766 | 2.1649 | 0.4025 |
 | Ridge | 2.5543 | 2.1628 | 0.4034 |
 | Random Forest | 0.7214 | 0.6505 | 0.2605 |
-| **Gradient Boosting** | **0.9421** | **0.6461** | **0.2222** |
+| **Gradient Boosting** | **0.9421** | **0.62506** | **0.2222** |
 | XGBoost | 1.0675 | 1.2149 | 0.0010 |
 
-🏆 **Meilleur modèle**: Gradient Boosting avec **0.6461 RMSLE** (35.2% mieux que baseline)
+🏆 **Meilleur modèle**: Gradient Boosting avec **0.62506 RMSLE** (35.2% mieux que baseline)
 
 ### Optimisation des hyperparamètres
 ```python
