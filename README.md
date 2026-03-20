@@ -59,54 +59,30 @@ Construire un pipeline complet de **prédiction des prix immobiliers** à Nouakc
 ## 📁 Structure du repository
 
 ```
-📦 Capstone_project_the_predictors
-├── 📂 data/
-│           
-├── EDA-Phase/
-│   ├── notebooks           
-│   ├── files.csv
-|
-├── EDA-Phase/
-│   ├── files scrapping for each site (.py)         
-│   └──datasets
-│
-|── feature_engineering/
-│   │   ├── notebooks
-│   │   └── utils.py
-|
-├── geo_enrichissement/
-│   |── notevooks
-│   |── files.csv
-│
-├── moedlisation/
-│   │____notebooks
-│   |____files_submission.csv
-│   └── 
-
-── 📂 api/
-│   ├── app.py                      # API Flask
-│   ├── model.pkl                    # Meilleur modèle entraîné
-│   ├── requirements.txt             # Dépendances Python
-│   └── Dockerfile                   # Pour déploiement
-│
-
-── 📂 frontend/
-│   ├── pages/
-│   │   ├── index.tsx
-│   │   └── predict.tsx
-│   ├── components/
-│   │   ├── Formulaire.tsx
-│   │   ├── Carte.tsx
-│   │   └── Resultat.tsx
-│   ├── styles/
-│   │   └── globals.css
-│   └── package.json
-│
-├── 📂 docs/                         # Documentation
-├── .gitignore
-├── requirements.txt
-├── README.md
-└── LICENSE
+CAPSTONE_PROJECT/
+├── 01_scrapping/
+│   ├── data/
+│   │   ├── EDA-Phase_data/                    # Données après analyse exploratoire
+│   │   ├── feature_engineering_data/          # Données avec features créées
+│   │   ├── geo_enrichissement_data/           # Données avec coordonnées GPS et POIs
+│   │   ├── moedlisation_data/                 # Données prêtes pour la modélisation
+│   │   └── raw/                               # Données brutes du scraping
+│   ├── model/                                 # Modèles entraînés
+│   │   ├── best_model_joblib                  # Meilleur modèle (Gradient Boosting)
+│   │   ├── encoder_joblib                     # Encodeur pour variables catégorielles
+│   │   ├── imputer_joblib                     # Imputeur pour valeurs manquantes
+│   │   └── scaler_joblib                      # Scaler pour normalisation
+│   ├── notebooks/                             # Notebooks Jupyter
+│   │   ├── 01_geo_enrichment_test.ipynb      # Géo-enrichissement (test)
+│   │   ├── 01_geo_enrichment_train.ipynb     # Géo-enrichissement (train)
+│   │   ├── 02_eda.ipynb                      # Analyse exploratoire
+│   │   ├── 03_feature_engineering_test.ipynb # Feature engineering (test)
+│   │   ├── 03_feature_engineering_train.ipynb# Feature engineering (train)
+│   │   ├── 04_modeling1.ipynb                # Modélisation - version 1
+│   │   ├── 04_modeling2.ipynb                # Modélisation - version 2
+│   │   └── 04_modeling3_final.ipynb          # Modélisation - version finale
+│   ├── README.md                              # Documentation du projet
+│   └── requirements.txt                       # Dépendances Python
 ```
 
 ## 🚀 Installation
@@ -433,7 +409,9 @@ lien d'app deployee: https://frontend-capistonepredictors.vercel.app/
 ## 👥 Équipe
 
 - **the predictors** - Data Scientist
-- [Vatma Elwavi, Mariem Tfeil, Hafsa Bilal]
+- Vatma Elwavi
+- Mariem Tfeil
+- Hafsa Bilal
 
 **Encadrant** : Beydia Mohamed - Instructeur, SupNum
 
@@ -447,8 +425,6 @@ Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de
 
 - **SupNum** - Institut Supérieur du Numérique
 - **Beydia Mohamed** - Pour l'encadrement et les conseils
-- **OpenStreetMap** - Pour les données géographiques gratuites
-- **Kaggle** - Pour la plateforme de compétition
 
 ---
 
