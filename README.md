@@ -110,8 +110,8 @@ CAPSTONE_PROJECT/
 
 ```bash
 # Cloner le repository
-git clone https://github.com/Fatma22035/Capstone_project_the_predictors
-cd Capstone_project_the_predictors
+git clone https://github.com/Fatma22035/mauritania-housing-ml_team_predictors?authuser=0
+cd mauritania-housing-ml_team_predictors
 
 # Créer un environnement virtuel
 python -m venv venv
@@ -137,8 +137,14 @@ npm install
 - [lagence-mr.com](https://lagence-mr.com)
 - [afribaba.com](https://mr.afribaba.com)
 - [mauri-home.com](https://mauri-home.com)
-- [untoitenrim.com](https://untoitenrim.com) etc
+- [untoitenrim.com](https://untoitenrim.com)
+- [menazel.org](https://menazel.org/fr))
+- [elminassa.com](https://www.elminassa.com/app.html?v=20250405)))
+- [wassit.info](http://wassit.info./)))
+- 
+- https://www.elminassa.com/app.html?v=20250405
 
+  
 ### Technologies
 - **BeautifulSoup4** : Parsing HTML
 - **Requests** : Requêtes HTTP
