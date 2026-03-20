@@ -22,11 +22,11 @@
 | Élément | Lien |
 |---------|------|
 | **Application déployée (Frontend)** | [https://frontend-capistonepredictors.vercel.app](https://frontend-capistonepredictors.vercel.app) |
-| **API Backend** | [https://api-capstone-predictors-4.onrender.com/api/predict](https://api-capstone-predictors-4.onrender.com/api/predict) |
-| **Repo GitHub (principal)** | [https://github.com/Fatma22035/Capstone_project_the_predictors](https://github.com/Fatma22035/Capstone_project_the_predictors) |
-| **Repo API** | [https://github.com/Fatma22035/api_capstone_predictors](https://github.com/Fatma22035/api_capstone_predictors) |
-| **Repo Frontend** | [https://github.com/Fatma22035/FrontendCapistone2](https://github.com/Fatma22035/FrontendCapistone2) |
-| **Support de présentation** | [./presentation/soutenance.pptx](./presentation/soutenance.pptx) |
+| **API Backend** | [https://api-capstone-predictors-4.onrender.com/api/predict) |
+| **Repo GitHub (principal)** | [https://github.com/Fatma22035/mauritania-housing-ml_team_predictors?authuser=0) |
+| **Repo API** | [https://github.com/Fatma22035/api_mauritania-housing-ml_team_predictors?authuser=0) |
+| **Repo Frontend** | [https://github.com/Fatma22035/Frontend_-mauritania-housing-ml_team_predictors?authuser=0) |
+| **Support de présentation** | [https://www.canva.com/design/DAHEHHFkgrM/4NHtAeXu0P29F2TiD0qNYg/view?utm_content=DAHEHHFkgrM&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hfd724869c3&authuser=0#1) |
 
 ---
 
