@@ -138,9 +138,9 @@ npm install
 - [afribaba.com](https://mr.afribaba.com)
 - [mauri-home.com](https://mauri-home.com)
 - [untoitenrim.com](https://untoitenrim.com)
-- [menazel.org](https://menazel.org/fr))
-- [elminassa.com](https://www.elminassa.com/app.html?v=20250405)))
-- [wassit.info](http://wassit.info./)))
+- [menazel.org](https://menazel.org/fr)
+- [elminassa.com](https://www.elminassa.com/app.html?v=20250405)
+- [wassit.info](http://wassit.info./)
 - 
 - https://www.elminassa.com/app.html?v=20250405
 
