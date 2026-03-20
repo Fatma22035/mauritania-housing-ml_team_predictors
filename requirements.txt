@@ -1,0 +1,45 @@
+# ============================================
+# PROJET: Prédiction des Prix Immobiliers à Nouakchott
+# VERSION: 1.0
+# DATE: Mars 2026
+# ============================================
+
+# WEB SCRAPING
+# ----------
+requests==2.31.0          # Requêtes HTTP
+beautifulsoup4==4.12.3    # Parsing HTML
+selenium==4.18.1          # Sites dynamiques
+lxml==5.1.0               # Parseur XML/HTML
+
+# GÉO-ENRICHISSEMENT
+# ----------
+geopy==2.4.1              # Géocodage Nominatim
+overpy==0.6               # API Overpass
+folium==0.15.1            # Cartes interactives
+branca==0.7.0             # Palettes de couleurs Folium
+
+# DATA SCIENCE
+# ----------
+pandas==2.0.3             # Manipulation données
+numpy==1.24.3             # Calculs numériques
+matplotlib==3.7.4         # Visualisation
+seaborn==0.13.2           # Visualisation statistique
+scipy==1.11.4             # Calculs scientifiques
+
+# MACHINE LEARNING
+# ----------
+scikit-learn==1.3.2       # Modèles ML
+xgboost==2.0.3            # XGBoost
+lightgbm==4.1.0           # LightGBM
+joblib==1.3.2             # Sauvegarde modèles
+
+# API & DÉPLOIEMENT
+# ----------
+Flask==2.3.3              # API REST
+flask-cors==4.0.0         # CORS
+gunicorn==21.2.0          # Serveur WSGI
+
+# UTILITAIRES
+# ----------
+tqdm==4.66.1              # Barres de progression
+python-dotenv==1.0.1      # Variables d'environnement

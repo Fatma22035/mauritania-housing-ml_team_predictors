@@ -39,7 +39,7 @@ Construire un pipeline complet de **prédiction des prix immobiliers** à Nouakc
 - ✅ **Feature Engineering** avancé
 - ✅ **Modélisation** avec 6 algorithmes de régression
 - ✅ **Application web** interactive (Next.js + Flask)
-- ✅ **Déploiement** sur Railway (backend) et Vercel (frontend)
+- ✅ **Déploiement** sur Render (backend) et Vercel (frontend)
 
 ## 🏗 Architecture du projet
 
@@ -421,9 +421,9 @@ setResult(response.data.prix);
 
 ## 🚀 Déploiement
 
-### Backend sur Railway
+### Backend sur Render
 depot git: https://github.com/Fatma22035/api_capstone_predictors
-api deploye : apicapstonepredictors-production.up.railway.app
+https://api-capstone-predictors-4.onrender.com/api/predict
 
 ### Frontend sur Vercel
 repo git : https://github.com/Fatma22035/FrontendCapistone2
