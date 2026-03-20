@@ -408,7 +408,7 @@ lien d'app deployee: https://frontend-capistonepredictors.vercel.app/
 
 ## 👥 Équipe
 
-- **the predictors** - Data Scientist
+- **the predictors** - Data engineering
 - Vatma Elwavi
 - Mariem Tfeil
 - Hafsa Bilal
