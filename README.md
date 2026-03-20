@@ -141,7 +141,6 @@ npm install
 - [menazel.org](https://menazel.org/fr)
 - [elminassa.com](https://www.elminassa.com/app.html?v=20250405)
 - [wassit.info](http://wassit.info./)
-- 
 - https://www.elminassa.com/app.html?v=20250405
 
   
