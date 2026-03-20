@@ -361,20 +361,6 @@ param_grid = {
 grid_search = RandomizedSearchCV(model, param_grid, n_iter=20, cv=5)
 ```
 
-### Analyse des erreurs
-- Les biens de luxe (>15M) sont sous-estimés (erreur moyenne 64%)
-- Solution : facteurs de correction par quartier
-
-### Évolution des scores Kaggle
-| Soumission | Score | Progrès |
-|------------|-------|---------|
-| 1 | 0.72867 | - |
-| 2 | 0.64812 | -0.080 |
-| 3 | 0.66038 | -0.068 |
-| 4 | 0.64658 | -0.082 |
-
-📈 **Gain total** : 0.082 point (11.3% d'amélioration)
-
 ## 💻 Phase 6: Application Web
 
 ### Architecture
@@ -418,22 +404,11 @@ setResult(response.data.prix);
 ## 🚀 Déploiement
 
 ### Backend sur Render
-depot git: https://github.com/Fatma22035/api_capstone_predictors
 https://api-capstone-predictors-4.onrender.com/api/predict
 
 ### Frontend sur Vercel
-repo git : https://github.com/Fatma22035/FrontendCapistone2
-lien d'app deployee: https://frontend-capistonepredictors.vercel.app/
+repo git : https://frontend-capistonepredictors.vercel.app/
 
-
-## 👥 Équipe
-
-- **the predictors** - Data engineering
-- Vatma Elwavi
-- Mariem Tfeil
-- Hafsa Bilal
-
-**Encadrant** : Beydia Mohamed - Instructeur, SupNum
 
 ## 📄 Licence
 
