@@ -52,8 +52,6 @@ Construire un pipeline complet de **prédiction des prix immobiliers** à Nouakc
 
 ---
 
-## 📁 Structure du repository
-
 
 ## 🏗 Architecture du projet
 
