@@ -95,6 +95,7 @@ CAPSTONE_PROJECT/
 │   │   └── 04_modeling3_final.ipynb          # Modélisation - version finale
 │   ├── README.md                              # Documentation du projet
 │   └── requirements.txt                       # Dépendances Python
+|   └── Rapport_final.pdf   
 ```
 
 ## 🚀 Installation
